@@ -65,9 +65,6 @@ const MiPredictionForm = () => {
 
   return (
     <div className={`container ${darkMode ? "dark-mode" : ""}`}>
-      <button className="dark-mode-toggle" onClick={toggleDarkMode}>
-        {darkMode ? "☀ Light Mode" : "🌙 Dark Mode"}
-      </button>
       <div className="card">
         <h2 className="title">HealthHax MI Prediction</h2>
         <h3 className="subtitle">Myocardial Infarction Prediction</h3>
